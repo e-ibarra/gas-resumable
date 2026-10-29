@@ -1,0 +1,13 @@
+{
+  "name": "gas-resumable",
+  "version": "1.0.0",
+  "description": "Run Google Apps Script jobs of any size: checkpointed batches, automatic continuation past the 6-minute limit, retries and dead letters.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "push": "clasp push"
+  },
+  "keywords": ["google-apps-script", "apps-script", "google-sheets", "batch", "timeout", "triggers", "resumable"],
+  "engines": { "node": ">=18" }
+}
